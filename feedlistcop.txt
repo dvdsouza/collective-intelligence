@@ -1,0 +1,11 @@
+https://talkingpointsmemo.com/feed/all
+http://www.tbray.org/ongoing/ongoing.rss
+http://feeds.feedburner.com/TechCrunch
+http://www.techdirt.com/techdirt_rss.xml
+http://www.techeblog.com/elephant/?mode=atom
+http://www.thesuperficial.com/feed
+http://www.tmz.com/rss.xml
+https://www.treehugger.com/feeds/latest/
+http://we-make-money-not-art.com/feed/
+http://www.wired.com/rss/index.xml
+https://wonkette.com/feed
