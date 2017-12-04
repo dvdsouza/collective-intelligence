@@ -228,6 +228,18 @@ def kcluster(rows, distance=pearson, k=4):
     return bestmatches
 
 
+def scaledown(data, distance=pearson, rate=0.01):
+    n = len(data)
+
+    # The real distances between every pair of items
+    realdist = [[distance(data[i], data[j]) for j in range(n)]
+                for i in range(0, n)]
+
+    outersum = 0.0
+
+    # Randomly initialize the starting points of the locations in 2D
+    loc = [[random.random(), random.random()] for i in range(n)]
+
 class bicluster:
     def __init__(self, vec, left=None, right=None, distance=0.0, id=None):
         self.left = left
